@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+.container{
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.informations{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    
+}
+
+h1{
+   margin-right: 10px;
+   font-size: 1.2rem;
+}
+
+.itemWarpper{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px;
+    border-bottom: 1px solid black;
+}
+.mainimage{
+  
+  width: 100px;
+}
+.mainimage img{
+    width: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+p{
+    font-size: 0.8rem;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.watchlist{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+    gap: 5px;
+}
