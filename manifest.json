@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "version": "1.00",
+  "name": "Movie list",
+  "description": "Generate list of Movies",
+  "action": {
+    "default_popup": "index.html"
+    
+  }
+}
